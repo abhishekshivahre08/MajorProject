@@ -4,4 +4,9 @@ Frontend/node_modules/
 dashboard/node_modules/
 
 # Ignore environment variables (security ke liye)
+.env
+# Sabhi folders ki .env files ko ignore karne ke liye
 **/.env
+
+# Ya fir specific path ke saath
+Backend/.env
